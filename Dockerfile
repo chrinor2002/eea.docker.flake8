@@ -1,7 +1,7 @@
 FROM python:2-alpine
-MAINTAINER "EEA: IDM2 A-Team" <eea-edw-a-team-alerts@googlegroups.com>
+MAINTAINER "Chrinor2002" <chrinor2002@gmail.com>
 
-ENV FLAKE8_VERSION=2.5.4
+ENV FLAKE8_VERSION=3.8.3
 
 RUN pip install flake8==$FLAKE8_VERSION
 
